@@ -23,7 +23,7 @@ function add() {
     let newNumber1 = +answer + +value1;
     numberAnswer.innerHTML = newNumber1;
     answer = newNumber1;
-};
+}; 
 
 minusButton.addEventListener('mouseover', mouseOverMinus);
 plusButton.addEventListener('mouseover', mouseOverPlus);
@@ -44,4 +44,4 @@ function mouseOutMinus() {
 }
 function mouseOutPlus() {
     document.querySelector('.plus').classList.remove('mouse');
-}
+};
