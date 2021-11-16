@@ -1,3 +1,4 @@
+console.log("main.js is scripted");
 let numberAnswer = document.querySelector('.answer');
 let minusButton = document.querySelector('.minus');
 let inputBox = document.querySelector('.input');
